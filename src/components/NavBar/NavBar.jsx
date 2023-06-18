@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
+import Logo from "../Logo/Logo";
 import "./navbar.css";
 function NavBar() {
   return (
     <nav className="navegacion">
       <ul className="lista_navegacion">
+        <Link className="anchor" to="/">
+          <Logo />
+        </Link>
         <Link className="anchor" to="/">
           Inicio
         </Link>
