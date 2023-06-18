@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .product_container {
-  width: 100vw;
+  max-width: 100%;
   padding-top: 5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1 fr 1fr;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-right: 0;
   color: white;
 }
