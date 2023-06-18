@@ -1,0 +1,12 @@
+.card_container {
+    width: 100vw;
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}

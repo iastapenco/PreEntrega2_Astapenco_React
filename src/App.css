@@ -1,0 +1,9 @@
+#root {
+  width: 100vw;
+  margin: 0;
+  padding: 6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}

@@ -1,0 +1,28 @@
+.navegacion {
+    display: inline-block;
+    width: 100vw;
+    height: fit-content;
+    background-color: #585858;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.lista_navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    list-style: none;
+}
+
+.anchor {
+    color: white;
+    text-decoration: none
+}
+
+.lista_navegacion:hover {
+    color: yellow;
+    transition: 0.4s;
+}
